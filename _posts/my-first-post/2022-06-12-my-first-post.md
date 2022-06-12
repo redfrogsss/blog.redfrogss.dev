@@ -2,7 +2,10 @@
 layout: post
 title:  "My first post!"
 date:   2022-06-12 15:00:00 +0800
+# modified: 2020-02-02 16:49:47 +07:00s
 tags: [blog, github]
+# categories: jekyll update
+# description: Ada dua cara untuk memperbarui forked repository menggunakan web interface yang disediakan oleh github tapi ribet, atau melalui terminal yang lebih ribet lagi.
 ---
 # Hello World
 This is my first post on this blog.
