@@ -123,7 +123,7 @@ sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf sudo reboot now
 Also, don’t forget to edit the `/etc/hosts` as well.
 
 ```
-127.0.0.1 rpi4-2
+127.0.0.1 rpi4-1
 ```
 
 ## What’s next?
