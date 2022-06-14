@@ -117,7 +117,8 @@ DNSStubListener=no
 Then, run the following commands.
 
 ```bash
-sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf sudo reboot now
+sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf 
+sudo reboot now
 ```
 
 Also, don’t forget to edit the `/etc/hosts` as well.
