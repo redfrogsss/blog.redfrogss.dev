@@ -166,7 +166,7 @@
         {%- if menus %}
           {%- for menu in menus -%} 
             {%- if url == menu.url -%}
-              <a class="menu-link active" href="{{ menu.url }}">{{ menu.title }}</a>
+              <a class="menu-link active" href="{{ menu.url }}" target="_parent">{{ menu.title }}</a>
             {%- else -%} 
               {%- if menu.external -%}
                 <a
@@ -183,7 +183,7 @@
           {%- endfor -%}
         {%- else -%}
           <a class="menu-link {% if url == '/' %}active{% endif %}" href="/">home</a>
-          <a class="menu-link {% if url == '/about/' %}active{% endif %}" href="/about">about</a>
+          <a class="menu-link {% if url == '/about/' %}active{% endif %}" href="/about" target="_parent">about</a>
         {%- endif -%}
         <a class="menu-link rss" href="/feed.xml">
           <svg
