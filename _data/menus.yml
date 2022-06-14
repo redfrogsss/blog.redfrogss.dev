@@ -8,8 +8,8 @@
 
 - title: about
   url: https://redfrogss.dev
-  external: true # set true if you using external link, see below
+  external: false
 
 - title: github
   url: https://github.com/redfrogsss
-  external: true
+  external: false
